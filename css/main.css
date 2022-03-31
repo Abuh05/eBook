@@ -2191,6 +2191,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .p1-gradient-bg, .primary-btn, .banner-area, .single-price:hover .price-bottom, .call-to-action-area, .single-footer-widget .click-btn, .generic-banner {
+  background-image: -moz-linear-gradient(90deg, #f45622 0%, #f45622 100%);
+  background-image: -webkit-linear-gradient(90deg, #f45622 0%, #f45622 100%);
+  background-image: -ms-linear-gradient(90deg, #f45622 0%, #f45622 100%);
+}
+.banner-area{
   background-image: -moz-linear-gradient(90deg, #000000 0%, #000000 100%);
   background-image: -webkit-linear-gradient(90deg, #000000 0%, #000000 100%);
   background-image: -ms-linear-gradient(90deg, #000000 0%, #000000 100%);
@@ -2210,7 +2215,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-right: 60px;
   border-radius: 25px;
   border: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -2283,6 +2288,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-content {
   text-align: center;
 }
+.me{
+margin-right: 500px;
+}
 
 .banner-content h1 {
   color: #fff;
@@ -2310,7 +2318,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1199.98px) {
   .banner-content h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 
@@ -2323,6 +2331,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .banner-content h5 {
   font-weight: 400;
   letter-spacing: 3px;
+ 
 }
 
 @media (max-width: 1280px) {
