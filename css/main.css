@@ -1188,6 +1188,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-left: 30px;
   line-height: 1.82em !important;
+  font-weight: 500;
 }
 
 .unordered-list li:before {
@@ -2168,7 +2169,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .section-title {
