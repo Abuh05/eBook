@@ -2290,6 +2290,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .button {
   text-align: center;
 }
+.color{
+  background-color: #38a4ff;
+}
 
 .banner-content {
   text-align: center;
@@ -2975,3 +2978,4 @@ h6 {
 .switch-wrap p {
   margin: 0;
 }
+
