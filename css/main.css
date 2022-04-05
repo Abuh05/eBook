@@ -387,7 +387,7 @@ td, th {
 }
 
 .mb-40 {
-  margin-bottom: 40px;
+  margin-bottom: 90px;
 }
 
 .mb-50 {
@@ -2366,10 +2366,11 @@ margin-right: 500px;
 
 @media (max-width: 800px) {
   .banner-right img {
-    width: 90%;
+    width: 100%;
     margin-right: auto !important;
     margin-left: auto !important;
     display: block;
+    margin-bottom: 20px;
   }
 }
 
