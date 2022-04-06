@@ -2287,6 +2287,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: 800px !important;
   }
 }
+@media (min-width: 387px) {
+  .banner-area .fullscreen {
+    height: 600px !important;
+  }
+}
 .button {
   text-align: center;
 }
@@ -2664,7 +2669,12 @@ margin-right: 500px;
 }
 @media (max-width: 486px) {
   .section-gap   {
-   margin-bottom: 200px;
+   margin-bottom: 250px;
+  }
+}
+@media (max-width: 486px) {
+  .section-gap   {
+   margin-bottom: 250px;
   }
 }
 @media (max-width: 768px) {
@@ -2956,8 +2966,8 @@ h6 {
   }
 }
 @media (max-width: 486pxpx) {
-  .banner-content h5 {
-    display: none;
+  .fullscreen {
+   height: 50px;
   }
 }
 
