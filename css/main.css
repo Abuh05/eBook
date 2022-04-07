@@ -48,7 +48,14 @@
   color: #777777;
   font-weight: 300;
 }
-
+.btn {
+  background: #f53f51 !important;
+  border: 1px solid transparent;
+  color: #222;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+}
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
@@ -571,7 +578,7 @@ td, th {
 }
 
 .text-black {
-  color: #000;
+  color: rgb(39, 38, 38);
 }
 
 .transition {
