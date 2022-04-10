@@ -2459,10 +2459,13 @@ margin-right: 500px;
   }
 }
 
-@media (max-width: 575.98px) {
+@media (min-width: 520.98px) {
   .info-area .info-content {
     padding: 30px;
   }
+  .section-gap   {
+    margin-bottom: 450px;
+   }
 }
 
 .info-area .info-content h1 {
@@ -2679,9 +2682,9 @@ margin-right: 500px;
    margin-bottom: 250px;
   }
 }
-@media (max-width: 486px) {
+@media (min-width: 413px) {
   .section-gap   {
-   margin-bottom: 250px;
+   margin-bottom: 450px;
   }
 }
 @media (max-width: 768px) {
