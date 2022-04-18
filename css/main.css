@@ -17,6 +17,7 @@
   color: #fff;
 }
 
+
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #777777;
@@ -47,6 +48,9 @@
   /* Microsoft Edge */
   color: #777777;
   font-weight: 300;
+}
+.red{
+  color: #f53f51 !important;
 }
 .btn {
   background: #f53f51 !important;
@@ -126,11 +130,11 @@ a, a:focus, a:hover {
 h1, h2, h3,
 h4, h5, h6 {
   font-family: "Poppins", sans-serif;
-  color: #222222;
+  color: #838282;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .h1, .h2, .h3,
@@ -138,8 +142,8 @@ h4, h5, h6 {
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #222222;
+  /* font-weight: 600; */
+  color: #646464;
 }
 
 h1, .h1 {
@@ -578,7 +582,7 @@ td, th {
 }
 
 .text-black {
-  color: rgb(39, 38, 38);
+  color: rgb(129, 128, 128);
 }
 
 .transition {
@@ -788,7 +792,7 @@ td, th {
   font-size: 24px;
 }
 
-b, sup, sub, u, del {
+b, sup, sub,  del {
   color: #f53f51;
 }
 
@@ -2385,6 +2389,12 @@ margin-right: 500px;
     margin-bottom: 50px;
   }
 }
+@media (max-width: 475px) {
+  .banner-right img {
+    width: 100%;
+   object-fit: contain;
+  }
+}
 
 .primary-btn {
   background: #fff;
@@ -2682,9 +2692,9 @@ margin-right: 500px;
    margin-bottom: 250px;
   }
 }
-@media (min-width: 413px) {
+@media (min-width: 308px) {
   .section-gap   {
-   margin-bottom: 450px;
+   margin-bottom: 250px;
   }
 }
 @media (max-width: 768px) {
@@ -3010,3 +3020,12 @@ h6 {
   margin: 0;
 }
 
+img {
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: contain !important;
+ }
+ .cat {
+  height:500px !important;
+  width: 500px !important;
+ }
