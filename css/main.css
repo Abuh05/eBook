@@ -21,7 +21,7 @@
   font-size: 18px !important;
 }
 strong{
-  color: rgb(27, 27, 27); 
+  color: red; 
 }
 
 ::-webkit-input-placeholder {
