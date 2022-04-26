@@ -23,6 +23,9 @@
 strong{
   color: red; 
 }
+.yellow{
+  background-color: yellow;
+}
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
