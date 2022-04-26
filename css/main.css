@@ -2845,7 +2845,22 @@ h6 {
     text-align: left;
   }
 }
-
+@media (min-width: 350px) {
+  .iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    width: 100%;
+  }
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+}
 .single-footer-widget input {
   border: none;
   width: 80% !important;
